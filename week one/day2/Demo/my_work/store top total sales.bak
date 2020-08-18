@@ -342,26 +342,6 @@ Total Customers - Descending</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
-    <Node ToolID="14">
-      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="366" y="54" width="672" height="48" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Text>What are the top 5 total Sales  for each region ?</Text>
-          <Font name="Arial Black" size="15.75" style="1" />
-          <TextColor name="Black" />
-          <FillColor name="White" />
-          <Shape shape="0" />
-          <Justification Justification="4" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
   </Nodes>
   <Connections>
     <Connection name="North">
