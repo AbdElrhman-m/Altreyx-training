@@ -1,0 +1,472 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">Tree_Survey_2016.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tree_Survey_2016.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tree ID" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Planting Date" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Height (m)" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Health" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="spc_latin" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="spc_common" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Borough Code" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2016.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Tree_Survey_2017.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tree_Survey_2017.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Latitude" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Planting Date" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="Tree ID" size="255" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Height (m)" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Status" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Bool" />
+            <Field name="Health" size="255" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Latin Name" size="255" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Common Name" size="255" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Borough Code" size="255" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\weeks\week_1\input data tools\4- select\interactive learning\Formatting_Columns\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Tree_Survey_2018.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tree_Survey_2018.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tree ID" size="254" source="Formula: if Length([Tree ID]) &lt; 6 then PadLeft([Tree ID], 6, &quot;0&quot;) else [Tree ID] endif" type="V_String" />
+            <Field name="Planting Date" source="Formula: REGEX_Replace([Planting Date], &quot;\d{4}&quot;, &quot;2018&quot;)" type="Date" />
+            <Field name="Height (m)" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="Int16" />
+            <Field name="Status" source="Formula: if [Status] = &quot;Alive&quot; then 1 else 0 endif" type="Bool" />
+            <Field name="Health" size="254" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="V_String" />
+            <Field name="Latin Name" size="254" source="Formula: Uppercase([spc_latin])" type="V_WString" />
+            <Field name="Common Name" size="254" source="Formula: Uppercase([spc_common])" type="V_WString" />
+            <Field name="Borough Code" size="254" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="V_WString" />
+            <Field name="Latitude" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="Double" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=Longitude y=Latitude" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="1188" height="276" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Formatting Columns
+
+
+]]></Text>
+          <Font name="Montserrat Medium" size="16.2" style="1" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Borough Code" />
+            <Field name="Borough Name" />
+            <Field name="Borough Population" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>Manhattan</c>
+              <c>1664727</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Bronx</c>
+              <c>1471160</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>Brooklyn</c>
+              <c>2648771</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>Queens</c>
+              <c>2358582</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Staten Island</c>
+              <c>479458</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="1188" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the Select Tool to format the columns in the Input Data tool (Tree_Survey_2016.csv)
+
+- Change the data types of the following columns: [Planting Date] to Date, [Height] to Int 16, [Status]  to Bool
+- Adjust the size of the column [Tree ID] to seven (7)
+- Rename the following columns: [spc_latin] to [Latin Name] and [spc_common] to [Common Name]
+- Deselect the columns [Latitude] and [Longitude]
+- Move the column [Planting Date] to the top of the dataset</Text>
+          <Font name="Montserrat Medium" size="12" style="1" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="342" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>Subset</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Planting Date" selected="True" />
+            <SelectField field="Tree ID" selected="True" size="7" />
+            <SelectField field="Height (m)" selected="True" />
+            <SelectField field="Status" selected="True" />
+            <SelectField field="Health" selected="True" />
+            <SelectField field="Latin Name" selected="True" />
+            <SelectField field="Common Name" selected="True" />
+            <SelectField field="Borough Code" selected="True" />
+            <SelectField field="Latitude" selected="False" />
+            <SelectField field="Longitude" selected="False" />
+            <SelectField field="Centroid" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Latitude" selected="False" />
+            <SelectField field="Longitude" selected="False" />
+            <SelectField field="Tree ID" selected="True" size="7" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="630" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Borough Code</FieldFind>
+          <FieldSearch>Borough Code</FieldSearch>
+          <ReplaceFoundField>Borough Name</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Replace</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Borough Code" selected="True" type="V_WString" size="3" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="774" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">D:\altreyx\Altreyx-training\weeks\week_1\input data tools\4- select\output data\output.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>output.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Planting Date" selected="True" type="Date" size="10" />
+            <SelectField field="Tree ID" selected="True" size="7" />
+            <SelectField field="Height (m)" selected="True" type="Int16" size="2" />
+            <SelectField field="Status" selected="True" type="Bool" size="1" />
+            <SelectField field="Health" selected="True" />
+            <SelectField field="spc_latin" selected="True" rename="Latain Name" />
+            <SelectField field="spc_common" selected="True" rename="Common Name" />
+            <SelectField field="Borough Code" selected="True" />
+            <SelectField field="Latitude" selected="False" />
+            <SelectField field="Longitude" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Source" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Formatting_Columns</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
