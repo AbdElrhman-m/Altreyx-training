@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="162" y="78" />
+        <Position x="54" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -16,9 +16,6 @@
           <DefaultAnnotationText>CO Store File - North.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store Num" size="5" source="File: (Multiple Sources)" type="V_WString" />
@@ -39,7 +36,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="162" y="162" />
+        <Position x="54" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -52,9 +49,6 @@
           <DefaultAnnotationText>CO Store File - South.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store Num" size="5" source="File: (Multiple Sources)" type="V_WString" />
@@ -75,7 +69,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="162" y="270" />
+        <Position x="54" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -88,9 +82,6 @@
           <DefaultAnnotationText>CO Store File - West.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store Num" size="5" source="File: (Multiple Sources)" type="V_WString" />
@@ -111,7 +102,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="162" y="498" />
+        <Position x="54" y="498" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -128,9 +119,6 @@
 Query=`Sheet1$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Store Number" source="File: C:\Users\AbdElrhman\Desktop\altryx\Altreyx new start\week one\day2\Demo\my_work\data\CO_Sales.xlsx|||`Sheet1$`" type="Double" />
@@ -144,7 +132,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="486" y="162" />
+        <Position x="378" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -163,7 +151,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="582" y="174" />
+        <Position x="474" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -204,7 +192,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="354" y="498" />
+        <Position x="246" y="498" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -225,7 +213,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="702" y="174" />
+        <Position x="594" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -256,7 +244,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="846" y="150" />
+        <Position x="738" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -275,7 +263,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="942" y="150" />
+        <Position x="834" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -295,7 +283,7 @@ Total Customers - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-        <Position x="1038" y="150" />
+        <Position x="930" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -315,7 +303,7 @@ Total Customers - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1122" y="150" />
+        <Position x="1014" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -336,15 +324,12 @@ Total Customers - Descending</DefaultAnnotationText>
           <DefaultAnnotationText>top total 5 sales for each reg.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="366" y="54" width="672" height="48" />
+        <Position x="258" y="54" width="672" height="48" />
       </GuiSettings>
       <Properties>
         <Configuration>
