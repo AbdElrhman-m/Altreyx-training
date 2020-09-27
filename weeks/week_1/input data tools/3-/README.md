@@ -1,0 +1,1 @@
+[The Ultimate Input Data Flowchart](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/The-Ultimate-Input-Data-Flowchart/ta-p/20480)
